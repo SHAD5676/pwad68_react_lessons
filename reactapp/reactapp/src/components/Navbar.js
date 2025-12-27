@@ -34,6 +34,21 @@ function Navbar() {
               
         
               <div className="nav-item dropdown">
+                <Link to="#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Blog </Link>
+                <div className="dropdown-menu m-0">
+                   <NavLink to="/blog" className={({ isActive }) => (
+                   isActive ?  "dropdown-item" : "dropdown-item" )}>
+             All Blog
+              </NavLink>
+               <NavLink to="/blog/new" className={({ isActive }) => (
+                   isActive ?  "dropdown-item" : "nav-item dropdown-item" )}>
+             New Blog
+              </NavLink>
+                  
+                </div>
+              </div>
+              
+              <div className="nav-item dropdown">
                 <Link to="#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages </Link>
                 <div className="dropdown-menu m-0">
                   <Link to="blog" className="dropdown-item">Blog Grid </Link>
