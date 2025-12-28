@@ -10,7 +10,10 @@
     "axios": "^1.13.2",
     "react": "^19.2.3",
     "react-dom": "^19.2.3",
+<<<<<<< HEAD
     "react-hook-form": "^7.69.0",
+=======
+>>>>>>> d857be3b14a0b766a28a75a0b2eb3913b93bc9b5
     "react-router-dom": "^7.11.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"

@@ -34,6 +34,7 @@ function Navbar() {
               
         
               <div className="nav-item dropdown">
+<<<<<<< HEAD
                 <Link to="#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Blog </Link>
                 <div className="dropdown-menu m-0">
                    <NavLink to="/blog" className={({ isActive }) => (
@@ -53,6 +54,8 @@ function Navbar() {
               </div>
               
               <div className="nav-item dropdown">
+=======
+>>>>>>> d857be3b14a0b766a28a75a0b2eb3913b93bc9b5
                 <Link to="#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages </Link>
                 <div className="dropdown-menu m-0">
                   <Link to="blog" className="dropdown-item">Blog Grid </Link>
